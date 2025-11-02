@@ -52,8 +52,8 @@ function App() {
 
   return (
     <>
-    {/* <CartComponent items = {item}/> */}
-     <ParentComponent counters = {counter} />
+    <CartComponent items = {item}/>
+     {/* <ParentComponent counters = {counter} /> */}
     </>
   )
 }
