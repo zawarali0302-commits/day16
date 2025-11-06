@@ -1,14 +1,9 @@
 
 import './App.css'
-import CardComponent from './components/CardComponent'
 import CartComponent from './components/CartComponent'
-import ParentComponent from './components/ParentComponent'
 import type { CardType } from './types/CardType'
-import type { CounterType } from './types/CounterType'
 
-// const counters: CounterType[] = [{
 
-// }]
 const item: CardType[] = [{
     id: 1,
     pic: "https://placehold.co/400",
@@ -35,25 +30,12 @@ const item: CardType[] = [{
     price: 1350,
 },]
 
-const counter: CounterType[] = [{
-  id:1,
-},{
-  id:2,
-},{
-  id:3,
-},{
-  id:4,
-},{
-  id:5,
-},{
-  id:6,
-},]
+
 function App() {
 
   return (
     <>
     <CartComponent items = {item}/>
-     {/* <ParentComponent counters = {counter} /> */}
     </>
   )
 }
